@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "progettoS10": {
+    "FE0122A_progetto_settimana10": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/progetto-s10",
+            "outputPath": "dist/fe0122-a-progetto-settimana10",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "progettoS10:build:production"
+              "browserTarget": "FE0122A_progetto_settimana10:build:production"
             },
             "development": {
-              "browserTarget": "progettoS10:build:development"
+              "browserTarget": "FE0122A_progetto_settimana10:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "progettoS10:build"
+            "browserTarget": "FE0122A_progetto_settimana10:build"
           }
         },
         "test": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "defaultProject": "progettoS10"
+  "defaultProject": "FE0122A_progetto_settimana10"
 }
